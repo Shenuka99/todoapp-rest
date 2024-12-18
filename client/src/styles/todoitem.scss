@@ -1,0 +1,38 @@
+.todo-container{
+    height: 30px;
+    width: 500px;
+    color:rgb(122, 120, 120);
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    .tag{
+        width: 5%;
+        margin-left: 5px;
+        
+        .tagitem{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+    }
+
+    .description {
+        width: 70%;
+        text-align: start;
+    }
+
+
+    .time{
+        width: 25%;
+        justify-self: flex-start;
+    }
+
+    .checkbox {
+        width: 10%;
+    }
+}
